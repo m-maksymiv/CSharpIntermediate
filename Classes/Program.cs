@@ -7,6 +7,7 @@
             IntroductionToClasses.IntroductionToClassesProgram();
             Constructors.ConstructorsProgram();
             Methods.MethodsProgram();
+            Fields.FieldsProgram();
         }
     }
 }
