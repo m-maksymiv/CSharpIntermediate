@@ -6,6 +6,7 @@
         {
             IntroductionToClasses.IntroductionToClassesProgram();
             Constructors.ConstructorsProgram();
+            Methods.MethodsProgram();
         }
     }
 }
