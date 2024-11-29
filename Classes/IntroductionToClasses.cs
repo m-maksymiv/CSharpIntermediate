@@ -10,7 +10,7 @@ namespace Classes;
 
 public static class IntroductionToClasses
 {
-    public class Persone
+    public class Person
     {
         public string Name;
 
@@ -19,13 +19,13 @@ public static class IntroductionToClasses
             Console.WriteLine("Hi {0}, I am {1}", to, Name);
         }
 
-        public static Persone Parse(string str)
+        public static Person Parse(string str)
         {
-            var persone = new Persone();
+            var person = new Person();
 
-            persone.Name = str;
+            person.Name = str;
 
-            return persone;
+            return person;
         }
     }
 
@@ -33,12 +33,12 @@ public static class IntroductionToClasses
     {
         Console.WriteLine("Start -> Introduction To Classes");
 
-        //Persone persone = new Persone();
-        //persone.Name = "Mykola";
-        //persone.Introduce("Maksymiv");
+        //Person person = new Person();
+        //person.Name = "Mykola";
+        //person.Introduce("Maksymiv");
 
-        var persone = Persone.Parse("Mykola");
-        persone.Introduce("Maksymiv");
+        var person = Person.Parse("Mykola");
+        person.Introduce("Maksymiv");
 
         Console.WriteLine("Finish -> Introduction To Classes");
     }

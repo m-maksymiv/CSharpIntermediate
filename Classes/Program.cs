@@ -8,6 +8,7 @@
             Constructors.ConstructorsProgram();
             Methods.MethodsProgram();
             Fields.FieldsProgram();
+            AccessModifiers.AccessModifiersProgram();
         }
     }
 }
